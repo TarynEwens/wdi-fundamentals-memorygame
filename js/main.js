@@ -59,4 +59,12 @@ var createBoard = function () {
 
 createBoard();
 
+var reloadPage = function () {
+window.location.reload();
+};
+
+document.getElementById('reset-button').addEventListener('click', reloadPage)
+
+
+
 
